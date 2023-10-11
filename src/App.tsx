@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className='App' ref={divRef}>
-      <h1>Nix Subs 🥳</h1>
+      <h1>Lista de subs</h1>
       <List subs={subs} />
       <Form onNewSub={handleNewSub}/>
     </div>
